@@ -1,5 +1,5 @@
 class LoginPage {
-    // 1. Define selectors for SauceDemo elements
+    // 1. selectors for Sauce
     get inputUsername() {
         return $('#user-name');
     }
@@ -16,7 +16,7 @@ class LoginPage {
         return $('.title');
     }
 
-    // 2. Define action methods
+    // 2. action methods
     async open() {
         await browser.url('https://www.saucedemo.com/');
     }
