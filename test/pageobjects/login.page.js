@@ -1,4 +1,8 @@
 class LoginPage {
+    username = 'standard_user';
+    password = 'secret_sauce';
+
+
     // 1. selectors for Sauce
     get inputUsername() {
         return $('#user-name');

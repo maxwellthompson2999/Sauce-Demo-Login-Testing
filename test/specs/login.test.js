@@ -7,7 +7,7 @@ describe('SauceDemo Positive Login', () => {
         await LoginPage.open();
 
         // Step 2: Log in 
-        await LoginPage.userLogin('standard_user', 'secret_sauce');
+        await LoginPage.userLogin(LoginPage.username, LoginPage.password);
 
         // Step 3: redirect to inventory page and check products header
         await expect(browser).toHaveUrl('https://www.saucedemo.com/inventory.html');
