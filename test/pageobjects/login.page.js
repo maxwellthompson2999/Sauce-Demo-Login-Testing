@@ -1,6 +1,8 @@
 class LoginPage {
-    users = ['standard_user', 'problem_user', 'error_user', 'visual_user'];
-    password = 'secret_sauce';
+    credentials = {
+        users: ['problem_user', 'error_user', 'visual_user', 'standard_user',],
+        password: 'secret_sauce'
+    };
 
 
     // 1. selectors for Sauce
